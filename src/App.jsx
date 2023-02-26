@@ -1,11 +1,16 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar.jsx";
+import Navbar from "./Components/Navbar/Navbar.jsx";
+import Hero from "./Components/Hero/Hero.jsx";
+import ContactForm from "./Components/ContactForm/ContactForm.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
 function App() {
   return (
     <div>
-      <h1>Subham</h1>
       <Navbar />
+      <Hero />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
